@@ -90,6 +90,7 @@ final class RawData<T> {
 
 // MARK: - ActionController class
 
+@available(iOS 8.0, *)
 public class ActionController<ActionViewType: UICollectionViewCell, ActionDataType, HeaderViewType: UICollectionReusableView, HeaderDataType, SectionHeaderViewType: UICollectionReusableView, SectionHeaderDataType>: UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UIViewControllerTransitioningDelegate, UIViewControllerAnimatedTransitioning {
  
     // MARK - Public properties
@@ -605,6 +606,7 @@ public class ActionController<ActionViewType: UICollectionViewCell, ActionDataTy
 
 // MARK: - DynamicsActionController class
 
+@available(iOS 8.0, *)
 public class DynamicsActionController<ActionViewType: UICollectionViewCell, ActionDataType, HeaderViewType: UICollectionReusableView, HeaderDataType, SectionHeaderViewType: UICollectionReusableView, SectionHeaderDataType> : ActionController<ActionViewType, ActionDataType, HeaderViewType, HeaderDataType, SectionHeaderViewType, SectionHeaderDataType> {
 
     public lazy var animator: UIDynamicAnimator = {

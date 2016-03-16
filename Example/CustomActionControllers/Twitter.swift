@@ -88,6 +88,7 @@ public class TwitterActionControllerHeader: UICollectionReusableView {
 }
 
 
+@available(iOS 8.0, *)
 public class TwitterActionController: ActionController<TwitterCell, ActionData, TwitterActionControllerHeader, String, UICollectionReusableView, Void> {
     
     public override init(nibName nibNameOrNil: String? = nil, bundle nibBundleOrNil: NSBundle? = nil) {

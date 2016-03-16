@@ -137,6 +137,7 @@ public class SpotifyHeaderView: UICollectionReusableView {
     }
 }
 
+@available(iOS 8.0, *)
 public class SpotifyActionController: ActionController<SpotifyCell, ActionData, SpotifyHeaderView, SpotifyHeaderData, UICollectionReusableView, Void> {
     
     private lazy var blurView: UIVisualEffectView = {
